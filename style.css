@@ -1,0 +1,95 @@
+body {
+background: rgba(0, 80, 92, 1);
+color: #fff;
+}
+
+h1 {
+font-family: Verdana;
+text-shadow:
+2px 2px 0px rgba(0, 0, 0, 0.5),
+4px 4px 0px rgba(0, 0, 0, 0.4),
+6px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 800px) {
+
+#ip{
+width: 100%;
+}
+#btn {
+width: 100%;
+font-size: 16px;
+height: 45px;
+}
+
+#results{
+font-size: 12px;
+width:100%;
+padding: 5px;
+
+}
+}
+
+@media screen and (min-width: 801px) {
+#ip {
+width: 40%;
+}
+
+#btn {
+height: 50px;
+width: 40%;
+}
+
+#results {
+font-size: 16px;
+min-width: 37%;
+padding: 0px 15px 0px 15px;
+}
+}
+
+#ix {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 5px;
+}
+
+#ip {
+font-size: 22px;
+height: 35px;
+margin-bottom: 10px;
+outline: none;
+text-align: center;
+}
+
+#ip:hover, #ip:focus {
+border: 3px solid rgba(0, 136, 157, 1);
+}
+
+#btn {
+background: rgba(0, 136, 157, 1);
+color: #fff;
+
+cursor: pointer;
+border: none;
+border: 1px dotted #fff;
+font-size: 20px;
+margin-bottom: 20px;
+}
+
+#btn:hover {
+opacity: 80%;
+}
+
+#results {
+
+text-transform: uppercase;
+
+font-family: Calibri;
+background: rgba(0, 136, 157, 0.42);
+
+overflow: auto;
+border: 2px dotted #fff;
+border-radius: 3px;
+}
